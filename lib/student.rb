@@ -4,9 +4,9 @@ class Student < User
     @knowledge = []
   end
 def learn (string)
-  array = @knowledge << "Ruby framework Rails gem bundle update"
+  @knowledge << "Ruby framework Rails gem bundle update"
 end
 def knowledge
-  array
+  
 end
 end
