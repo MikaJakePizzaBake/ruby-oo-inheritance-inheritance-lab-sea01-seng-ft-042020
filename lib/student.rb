@@ -3,7 +3,7 @@ class Student < User
   def initialize
     @knowledge = []
   end
-def learn
+def learn (string)
   @knowledge << "Ruby framework Rails gem bundle update"
 end
 end
